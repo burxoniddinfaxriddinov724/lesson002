@@ -1,0 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 750px;
+    padding: 0 10%;
+    background: url("./vazifa.1.jpg") no-repeat center/cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.h2 {
+    color: orange;
+}
+
+.navbar__collection {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin-left: 55%;
+}
+
+.btn {
+    width: 100px;
+    height: 25px;
+    border-radius: 3.3px;
+    margin-left: 97px;
+    background: rgba(255, 255, 255, 0.358);
+    border: 1px solid orange;
+    color: orange;
+}
+
+.text {
+    text-align: center;
+    padding-top: 200px;
+    color: white;
+}
+
+.btn2{
+    width: 100px;
+    height: 25px;
+    border-radius: 3.3px;
+    background: rgba(255, 255, 255, 0.401);
+    border: 1px solid rgba(255, 166, 0, 0.355);
+    color: orange;
+}

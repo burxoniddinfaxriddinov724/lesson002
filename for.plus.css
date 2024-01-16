@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.banner {
+    width: 100%;
+    height: 750px;
+    background: url("./for\ plus.jpg") no-repeat center/cover;
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    color: black;
+}
+
+.collection {
+    display: flex;
+    gap: 45px;
+font-size: 18px;
+    list-style: none;
+    margin: auto;
+}
+.h1{
+padding-top: 13%;
+margin-left: 100px;
+}
+.title{
+margin-left: 100px;
+}
+.btn{
+width: 140px;
+height: 28px;
+background: black;
+color: white;
+border:none ;
+margin-left: 100px;
+border-radius: 3px;
+}
